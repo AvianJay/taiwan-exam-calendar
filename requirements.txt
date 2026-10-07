@@ -1,0 +1,10 @@
+# 執行期依賴（GitHub Actions 與本地共用）
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+lxml>=5.0
+pdfplumber>=0.11,<0.12
+pypdfium2>=4.30
+jsonschema>=4.22,<5
+
+# 測試
+pytest>=8.0

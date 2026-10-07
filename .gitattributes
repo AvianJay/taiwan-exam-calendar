@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.pdf binary
+*.png binary
+# 官方網站快照必須保持原始位元組，不做換行轉換
+tests/fixtures/** binary

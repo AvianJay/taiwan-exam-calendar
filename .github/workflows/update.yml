@@ -1,0 +1,66 @@
+name: Update Taiwan exam calendar
+
+on:
+  schedule:
+    # 每週一 01:23 UTC（台灣時間 09:23）。避開整點，減少與其他排程同時觸發。
+    - cron: "23 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-exam-calendar
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+
+      - name: Install dependencies
+        # requirements-ocr.txt：簡章 PDF 無法使用時，CEEC 會改用 OCR fallback
+        run: |
+          pip install -r requirements.txt -r requirements-ocr.txt
+          python -c "from src.pdf_utils import ocr_available; print('OCR fallback available:', ocr_available())"
+
+      - name: Run tests (offline fixtures)
+        run: python -m pytest -q
+
+      - name: Scrape official sources
+        id: scrape
+        # 任一 scraper 失敗或驗證失敗 → exit 1，不寫入任何檔案，workflow 直接失敗
+        run: python -m src.main --save-raw raw
+
+      - name: Validate data file
+        run: python -m src.validate data/exams.json
+
+      - name: Commit if data changed
+        if: steps.scrape.outputs.changed == 'true'
+        run: |
+          if git diff --quiet -- data README.md; then
+            echo "沒有實質變更，不 commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data README.md
+          git commit -m "chore(data): update Taiwan exam calendar"
+          git push
+
+      - name: Upload raw downloads for debugging
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: raw-downloads-${{ github.run_id }}
+          path: raw/
+          retention-days: 14
+          if-no-files-found: ignore

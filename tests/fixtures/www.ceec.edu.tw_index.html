@@ -1,0 +1,1327 @@
+
+
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+
+<head>
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="Accessible_website" content="本網站通過第(1)優先等級無障礙網頁檢測" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="meta" content="meta" />
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    
+    <meta content="zh-Hant" http-equiv="content-language" />
+
+    
+
+    <title>首頁 | 大考中心</title>
+    <link rel="shortcut icon" href="/files/atts/0J294556593854474724/layout/images/favicon.ico" />
+
+    <link href="/files/atts/0J294556593854474724/layout/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/files/atts/0J294556593854474724/layout/css/jquery.mmenu.css" rel="stylesheet" type="text/css" />
+
+
+<link href="/files/atts/0J294556593854474724/layout/css/index.css" rel="stylesheet" type="text/css" /><link href="/files/atts/0J294556593854474724/layout/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+    <script>
+        if (typeof Array.prototype.forEach != 'function') {
+            Array.prototype.forEach = function (callback) {
+                for (var i = 0; i < this.length; i++) {
+                    callback.apply(this, [this[i], i, this]);
+                }
+            };
+        }
+    </script>
+
+    
+
+
+<link href="/bundles/css?v=PRHXTn8q25Jt_rZ0394QZ3IDXGsMqxdObtZyWPQ9iuo1" rel="stylesheet"/>
+
+<script src="/bundles/js?v=ofvCkEosLEbIhRy5ISby7jJx4PXYCbihhy9quXywHv41"></script>
+
+
+<script type="text/javascript">
+    var pgInfo = {
+        SystemPhase: 11,
+        Form: null,
+        WebSiteRoot: "/",
+        UploadRoot: "/files/"
+    };
+
+    $(function () {
+        pgInfo.Form = $("form[id='MainForm']");
+    });
+</script>
+
+
+<script type="text/javascript">
+    var captchaHelper = (function () {
+        return {
+            reset: function () {
+                $('.captcha-code').attr('src', '/pageutil/captchacode' + "?" + Math.floor(Math.random() * (1000 - 1 + 1) + 1));
+                return false;
+            }
+        };
+    })();
+
+    $(function () {
+        //captchaHelper.reset();
+    });
+</script>
+
+
+    
+    <script type="text/javascript">
+        $(function () {
+            $('.superfish').superfish();
+            $('#MenuMobile').mmenu();
+            $('#btnSearch').click(function (e) {
+                e.preventDefault()
+                location.href = "/sitesearch" + "?sq=" + $("#sq").val()
+            })
+        });
+    </script>
+
+    
+    
+    <script type="text/javascript">
+        $(function () {
+            $(".dev-site-search-bar").each(function () {
+                var container = $(this);
+
+                var ctrlKeyword = $(".dev-site-search-keyword", container);
+                ctrlKeyword.keypress(function (e) {
+                    var key = e.keyCode ? e.keyCode : e.which;
+                    if (key == 13) {
+                        ctrlKeyword.blur();
+                        $(".dev-site-search-submit", container).click();
+                        return false;
+                    }
+                });
+
+                var ctrlSubmit = $(".dev-site-search-submit", container);
+                ctrlSubmit.click(function (e) {
+                    var keyword = $(".dev-site-search-keyword", container).val();
+                    location.href = "/sitesearch".concat("?sq=").concat(encodeURIComponent(keyword));
+                    return false;
+                });
+            });
+        });
+    </script>
+
+    
+        <meta name="google-site-verification" content="F1rPxaUkpxiqn-O45BuSHRJGqqOoAuQ80ejMHt6LSug" />
+    <script src="/theme/client/js/owl.carousel.js"></script>
+
+    <script>
+$(window).on('load', function(){
+    //熱門出版品
+    $(".owl-carousel").owlCarousel({
+        loop: true,
+        responsiveClass: true,
+        nav: true,
+        autoplay:true,
+        autoplayTimeout:4000,
+        margin:20,
+        //navText : ["上一則", "下一則"],
+        responsive: {
+          0: {
+            items: 1
+          },
+          480: {
+            items: 2
+          },
+          640: {
+            items: 3
+          },
+          1024: {
+            items: 5
+          }
+        }
+    });
+});
+    </script>
+
+
+    <link href="/files/atts/0J294556593854474724/layout/css/width_narrow.css" media="only screen and (max-width: 639px)" rel="stylesheet" type="text/css" />
+    <link href="/files/atts/0J294556593854474724/layout/css/width_wide.css" media="only screen and (min-width: 640px) and (max-width: 1023px)" rel="stylesheet" type="text/css" />
+    <link href="/files/atts/0J294556593854474724/layout/css/width_desktop.css" media="only screen and (min-width: 1024px)" rel="stylesheet" type="text/css" />
+
+    <!--[if IE 9]>
+        <link href="/files/atts/0J294556593854474724/layout/css/ie9_fix.css" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <link href="/files/atts/0J294556593854474724/layout/css/print.css" media="print" rel="stylesheet" type="text/css" />
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEK5KL6XEY"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+
+            gtag('config', 'G-EEK5KL6XEY');
+        </script>
+</head>
+
+<body>
+    <div id="Wrap">
+        <!-- header start -->
+        <div id="Header">
+            <div class="header-info">
+                <div>
+                    <h1 class="logo"><a href="https://www.ceec.edu.tw/" title="大考中心"><img src="https://www.ceec.edu.tw/files/file_pool/1/0q243406206328939235/114-0505-logo-9.png" alt="大考中心"></a></h1>
+                    <div class="right">
+                        <div class="other-menu">
+
+
+
+<ul><li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J197691878381913513" menu-code="0J052605494129871538">下載專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J236448857801791531" title="術科行政" id="menu0J236459945632857841" menu-code="0J236448857801791531">術科行政</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J087752015580462225" title="相關網站" id="menu0J236460130448111382" menu-code="0J087752015580462225">相關網站</a></li>
+<li><a href="https://www.ceec.edu.tw/en/xmdoc/cont?xsmsid=0J164378162651032149" title="ENGLISH" target="_blank" rel="noopener noreferrer" id="menu0J236460396355584813" menu-code="0J236460396355584813">ENGLISH</a></li>
+<li class="line"><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J290351513057919748" title="LINE官方帳號" id="menuLINE" menu-code="LINE">LINE官方帳號</a></li>
+</ul>
+                        </div>
+                        
+                        
+                        <div class="search dev-site-search-bar">
+                            <div class="text">
+                                <input type="text" id="sq" name="sq" class="dev-site-search-keyword" accesskey="S" value="" placeholder="請輸入關鍵字" />
+                            </div>
+                            <div class="btn">
+                                <input type="submit" value="搜尋" class="dev-site-search-submit" title="搜尋" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- PC Menu -->
+
+
+<div id="Menu"><div>
+    <ul class="superfish"><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="最新訊息" id="menu0I363356875656441471" menu-code="0I363356875656441471">最新訊息</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="新聞稿/公告" id="menu0I363356975290310499" menu-code="0I363338985390931117">新聞稿/公告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352102893869773" title="會議/活動訊息" id="menu0I363357086835299426" menu-code="0I363352102893869773">會議/活動訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352213072616728" title="出版訊息" id="menu0I363357156479168444" menu-code="0I363352213072616728">出版訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352369522959286" title="求才啟事" id="menu0I363357247013047471" menu-code="0I363352369522959286">求才啟事</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="關於中心" id="menu0I363357327557916498" menu-code="0I363357327557916498">關於中心</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="簡介" id="menu0I363357448192895426" menu-code="0I363352685517160772">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018543724743104681" title="組織架構" id="menu0J019410666835299426" menu-code="0J018543724743104681">組織架構</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553683195911166" title="各單位職掌" id="menu0J019410892741653967" menu-code="0J018553683195911166">各單位職掌</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553859646154635" title="我們的主任" id="menu0J019411077557916498" menu-code="0J018553859646154635">我們的主任</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400224817662442" title="國際交流" id="menu0J050406134679660023" menu-code="0J050406134679660023">國際交流</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400224817662442" title="兩岸交流" id="menu0J050406777570145140" menu-code="0J050400224817662442">兩岸交流</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400530268804900" title="亞洲英語語言測驗學術論壇(AFELTA)" id="menu0J050406942486508681" menu-code="0J050400530268804900">亞洲英語語言測驗學術論壇(AFELTA)</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400776718137468" title="各國參訪" id="menu0J050407088393862122" menu-code="0J050400776718137468">各國參訪</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050401082269379937" title="其他" id="menu0J050407204209225653" menu-code="0J050401082269379937">其他</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" title="公開資訊" id="menu0J019412059370643470" menu-code="0J019412059370643470">公開資訊</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" title="個人資料保護" id="menu0J107585470986498582" menu-code="0J107562112748691909">個人資料保護</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018557568432243722" title="捐助章程" id="menu0J231523437209194600" menu-code="0J018557568432243722">捐助章程</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018557824882485281" title="董事．監察人名冊" id="menu0J231523593116568141" menu-code="0J018557824882485281">董事．監察人名冊</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558060333728749" title="預算" id="menu0J231523769022921682" menu-code="0J018558060333728749">預算</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558246884050217" title="決算" id="menu0J231523854938284113" menu-code="0J018558246884050217">決算</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558442234292776" title="會計師查核報告" id="menu0J231523960745648654" menu-code="0J018558442234292776">會計師查核報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0N075500386912682493" title="政策宣導相關廣告執行情形" id="menu0N097624515890903514" menu-code="0N075500386912682493">政策宣導相關廣告執行情形</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018559180686000251" title="我們的位置" id="menu0J019414320268804900" menu-code="0J018559180686000251">我們的位置</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J021572767858503814" title="高中英語聽力測驗" id="menu0I363357599370643470" menu-code="0I363357599370643470">高中英語聽力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352816796918817" title="考試訊息" id="menu0I363357689914512498" menu-code="0I363352816796918817">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/C1" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019414765174268441" menu-code="0J019414765174268441">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018575771613542490" title="簡介" id="menu0J019415251081521982" menu-code="0J018575771613542490">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576017163884959" title="考試說明" id="menu0J019416424160844054" menu-code="0J018576017163884959">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576253614017417" title="試題示例/參考試卷" id="menu0J019416610077217595" menu-code="0J018576253614017417">試題示例/參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0K213553204833715309" title="高中英文參考詞彙表" id="menu0K213554890225353257" menu-code="0K213553204833715309">高中英文參考詞彙表</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576586515691444" title="選才文摘" id="menu0J019417081790934567" menu-code="0J018576586515691444">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576409065359986" title="統計資料" id="menu0J019416756883671026" menu-code="0J018576409065359986">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J019417287606397008" menu-code="0J019417287606397008">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J019417688429024070" menu-code="0J019417688429024070">下載專區</a></li>
+<li><a href="https://www.ceec.edu.tw/files/file_pool/1/0N241391214032222778/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AA%9E%E8%81%BD%E5%8A%9B%E6%B8%AC%E9%A9%97%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C.pdf" title="常見問題 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0K251344440038704497" menu-code="0K251344440038704497">常見問題</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J102476414945283727" title="學科能力測驗" id="menu0I363357740559491425" menu-code="0I363357740559491425">學科能力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352927974766861" title="考試訊息" id="menu0I363357890193360443" menu-code="0I363352927974766861">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/A" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019418330776620070" menu-code="0J019418330776620070">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018585669569761568" title="簡介" id="menu0J019418756227853538" menu-code="0J018585669569761568">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018585845010094026" title="考試說明" id="menu0J019418872133216079" menu-code="0J018585845010094026">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018586101460336585" title="參考試卷" id="menu0J019419047949680510" menu-code="0J018586101460336585">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018586337911578043" title="研究用試題" id="menu0J019419283856943041" menu-code="0J018586337911578043">研究用試題</a></li>
+<li><a href="javascript:void(0);" title="試辦考試" id="menu0M091505529203251304" menu-code="0M091505529203251304">試辦考試</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091480409937740140" title="110試辦考試訊息" id="menu0M091505854119614845" menu-code="0M091480409937740140">110試辦考試訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091481045388073608" title="110試辦試題與解析" id="menu0M091505990926078376" menu-code="0M091481045388073608">110試辦試題與解析</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091481446101700680" title="109試辦試題與解析" id="menu0M091506126832331817" menu-code="0M091481446101700680">109試辦試題與解析</a></li>
+</ul></li>
+<li><a href="javascript:void(0);" title="歷年試題及答題卷" id="menu0J019421799762306582" menu-code="0J019421799762306582">歷年試題及答題卷</a><ul><li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424829869345634" title="一般試題" id="menu0J052428618921465604" menu-code="0J052424829869345634">一般試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052392083839398563" title="特殊試題" id="menu0J052428708565334621" menu-code="0J052392083839398563">特殊試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0M111357021798465239" title="特殊答題卷" id="menu0M111596654847086938" menu-code="0M111357021798465239">特殊答題卷</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071624926253508127" title="佳作" id="menu0J072500980800204600" menu-code="0J071624926253508127">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406542978782512" title="選才文摘" id="menu0J171422170418641598" menu-code="0J171406542978782512">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604485538810196" title="統計資料" id="menu0J019423008759993195" menu-code="0J018604485538810196">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604611989052655" title="工作報告" id="menu0J019423123665356636" menu-code="0J018604611989052655">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J019423289571619177" menu-code="0J019423289571619177">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J019423585922952636" menu-code="0J019423585922952636">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J129606443348127072" title="分科測驗(110前指考)" id="menu0I363357990637249470" menu-code="0I363357990637249470">分科測驗(110前指考)</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363353018153514816" title="考試訊息" id="menu0I363358061271118497" menu-code="0I363353018153514816">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/B" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019423917923427652" menu-code="0J019423917923427652">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018609467578676713" title="簡介" id="menu0J019424474918638148" menu-code="0J018609467578676713">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609653929908281" title="考試說明" id="menu0J019424600825901679" menu-code="0J018609653929908281">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609919479141840" title="參考試卷" id="menu0J019424745731365110" menu-code="0J018609919479141840">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018610105920483308" title="研究用試題" id="menu0J019424971547628651" menu-code="0J018610105920483308">研究用試題</a></li>
+<li><a href="javascript:void(0);" title="歷年試題及答題卷" id="menu0J019425107454082193" menu-code="0J019425107454082193">歷年試題及答題卷</a><ul><li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052427633128416650" title="一般試題" id="menu0J052428834471708262" menu-code="0J052427633128416650">一般試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424613319003165" title="特殊試題" id="menu0J052428970388061793" menu-code="0J052424613319003165">特殊試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0M111360260774151742" title="特殊答題卷" id="menu0M111596879753449469" menu-code="0M111360260774151742">特殊答題卷</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071646661300229964" title="佳作" id="menu0J072501412523931672" menu-code="0J071646661300229964">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406874235388511" title="選才文摘" id="menu0J171496285969764908" menu-code="0J171406874235388511">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611000723433352" title="統計資料" id="menu0J238303499484678676" menu-code="0J018611000723433352">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611166273765810" title="工作報告" id="menu0J238303925934800145" menu-code="0J018611166273765810">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J238304111841263676" menu-code="0J238304111841263676">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J238304427657537117" menu-code="0J238304427657537117">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="宣導與研習" id="menu0I363358462094935479" menu-code="0I363358462094935479">宣導與研習</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="簡報與短片" id="menu0J184549017403752074" menu-code="0J177009711460336585">簡報與短片</a></li>
+<li><a href="https://www.ceec.edu.tw/xmevent?xsmsid=0J109607120360363338" title="研習訊息" id="menu0J109607440448111382" menu-code="0J109607120360363338">研習訊息</a></li>
+</ul></li>
+<li><a title="生涯輔導" id="menu0I363358141816087425" menu-code="0I363358141816087425">生涯輔導</a><ul><li><a href="https://career.ceec.edu.tw" title="生涯測驗 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0I363358242450066442" menu-code="0I363358242450066442">生涯測驗</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J325537256835299426" title="生涯訊息" id="menu0J338546373447724351" menu-code="0J325537256835299426">生涯訊息</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="出版/訂購" id="menu0J093267425491907814" menu-code="0J093267425491907814">出版/訂購</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="簡章">簡章</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="考試簡章">考試簡章</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886" title="試題系列">試題系列</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886" title="學科能力測驗系列">學科能力測驗系列</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328138027351868" title="分科測驗(110前指考)系列">分科測驗(110前指考)系列</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328229740188930" title="英語聽力測驗系列">英語聽力測驗系列</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441" title="心理測驗">心理測驗</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441" title="興趣量表">興趣量表</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329276353015496" title="大學學系探索量表">大學學系探索量表</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328735465854956" title="其他">其他</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328735465854956" title="考試學刊">考試學刊</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328796544602901" title="升學輔導類">升學輔導類</a></li>
+</ul></li>
+<li><a href="/xcecbook/cart?xsmsid=0J090239151495413846" title="購物車">購物車</a></li>
+<li><a href="/xcecbook/order?xsmsid=0J090239151495413846" title="訂單查詢">訂單查詢</a></li>
+<li><a href="/xcecbook/ordernotes?xsmsid=0J090239151495413846" title="訂購注意事項">訂購注意事項</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="選才電子報" id="menu0J066592658179667774" menu-code="0J066592658179667774">選才電子報</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="當期內容">當期內容</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/peroid?xsmsid=0J066588036013658199" title="各期目錄">各期目錄</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q252591339361786258&amp;xsmsid=0J066588036013658199" title="專題報報">專題報報</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616104134302815&amp;xsmsid=0J066588036013658199" title="試訊快遞">試訊快遞</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066633081664881609&amp;xsmsid=0J066588036013658199" title="學習錦囊">學習錦囊</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632128429024070&amp;xsmsid=0J066588036013658199" title="教育服務">教育服務</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P265367265048005583&amp;xsmsid=0J066588036013658199" title="試題影音">試題影音</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614317330887844&amp;xsmsid=0J066588036013658199" title="科普專區">科普專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614378153514816&amp;xsmsid=0J066588036013658199" title="數字真相">數字真相</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616640928936985&amp;xsmsid=0J066588036013658199" title="招生選才">招生選才</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110619899420480958&amp;xsmsid=0J066588036013658199" title="研究論述專欄">研究論述專欄</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J093450035061333235&amp;xsmsid=0J066588036013658199" title="中心剪影">中心剪影</a></li>
+</ul></li>
+</ul>
+</div></div>
+
+        </div>
+
+        
+
+
+        <!--RenderBody -->
+        
+
+
+
+
+
+<div id="IndexCenter">
+
+    <!-- 最新訊息 -->
+    <div class="IndexNews item">
+        <div>
+            <div class="indexTitle"><h3>最新訊息</h3></div>
+            <div class="tabs_group_cust tabStyle">
+                    <div class="tabs">
+                        <ul>
+
+                                <li class="tab"><a href="#tab1" title="新聞稿/公告">新聞稿/公告</a></li>
+                                <li class="tab"><a href="#tab2" title="會議/活動訊息">會議/活動訊息</a></li>
+                                <li class="tab"><a href="#tab3" title="會議/活動報名">會議/活動報名</a></li>
+                                <li class="tab"><a href="#tab4" title="出版訊息">出版訊息</a></li>
+                                <li class="tab"><a href="#tab5" title="求才啟事">求才啟事</a></li>
+                        </ul>
+                    </div>
+                    <div class="tab_container">
+                            <div id="tab1" class="tab_cont">
+                                <div class="cont_box">
+                                    <ul>
+                                            <li>
+                                                <div class="date">115-09-08</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q251520729103630585/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e9%ab%98%e4%b8%ad%e8%8b%b1%e8%81%bd%e7%ac%ac%e4%b8%80%e6%ac%a1%e8%80%83%e8%a9%a6%e5%a0%b1%e5%90%8d%e8%87%b39%e6%9c%8810%e6%97%a5%e6%88%aa%e6%ad%a2%28%e6%96%b0%e8%81%9e%e7%a8%bf%29.pdf" target="_blank">116學年度高中英語聽力測驗第一次考試報名至9月10日截止(新聞稿)</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-09-08</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q250631041909712079/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%80%83%e8%a9%a6%e7%b0%a1%e7%ab%a0%e6%9a%a8%e8%a9%a6%e5%8b%99%e5%ae%a3%e5%b0%8e%e8%aa%aa%e6%98%8e%e6%9c%83%e7%b0%a1%e5%a0%b1.pdf" target="_blank">116學年度考試簡章暨試務宣導說明會簡報</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-09-02</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q245501556399828778/pdf_116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e9%ab%98%e4%b8%ad%e8%8b%b1%e8%aa%9e%e8%81%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e7%ac%ac%e4%b8%80%e6%ac%a1%e8%80%83%e8%a9%a6%e5%a0%b1%e5%90%8d%e8%87%aa9%e6%9c%883%e6%97%a5%e8%b5%b7%e8%87%b39%e6%9c%8810%e6%97%a5%e6%88%aa%e6%ad%a2%28%e6%96%b0%e8%81%9e%e7%a8%bf%29.pdf" target="_blank">116學年度高中英語聽力測驗第一次考試報名自9月3日起至9月10日截止(新聞稿)</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-04</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J290351513057919748">本中心LINE官方帳號116簡章資訊更新上線囉，快加入LINE好友，掌握最新考試資訊不遺漏！</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-03</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q215546906249181280/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%80%83%e8%a9%a6%e7%b0%a1%e7%ab%a0%e6%96%bc115%e5%b9%b48%e6%9c%884%e6%97%a5%ef%bc%88%e4%ba%8c%ef%bc%89%e5%85%ac%e5%91%8a%e8%88%87%e7%99%bc%e5%94%ae%20%28%e6%96%b0%e8%81%9e%e7%a8%bf%29.pdf" target="_blank">116學年度考試簡章於115年8月4日（二）公告與發售 (新聞稿)</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                        <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" >更多</a></div>
+                                </div>
+                            </div>
+                            <div id="tab2" class="tab_cont">
+                                <div class="cont_box">
+                                    <ul>
+                                            <li>
+                                                <div class="date">115-08-03</div>
+                                                <div class="cont">
+                                                        <a href="https://ap.ceec.edu.tw/preexam/">115年研究用試題測試報名（開放報名時間：08/04上午9:00～08/06下午5:00）</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                        <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352102893869773" >更多</a></div>
+                                </div>
+                            </div>
+                            <div id="tab3" class="tab_cont">
+                                <div class="cont_box">
+                                    <ul>
+                                            <li>
+                                                <div class="date">115-03-11</div>
+                                                <div class="cont">
+                                                        <a href="/xmevent/cont?xsmsid=0J109607120360363338&amp;sid=0Q070536298264850656">115年大學入學考試素養導向宣導會議</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-03-11</div>
+                                                <div class="cont">
+                                                        <a href="/xmevent/cont?xsmsid=0J109607120360363338&amp;sid=0Q070528172775247597">115年大學入學考試素養導向命題工作坊</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="tab4" class="tab_cont">
+                                <div class="cont_box">
+                                    <ul>
+                                            <li>
+                                                <div class="date">115-06-30</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886">115學年度學科能力測驗試題與解析即日起發售，內容包含各科試題、參考答案及試題解析等部分，以「國文、英文、數學Ａ數學Ｂ、社會、自然」各科分科的編輯方式出版。</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">114-12-19</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328138027351868">114學年度分科測驗試題與解析即日起發售，內容包含各科試題、參考答案及試題解析等部分，以「數學甲數學乙、歷史、地理、公民與社會、物理、化學、生物」各科分科的編輯方式出版。</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">114-08-08</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886">114學年度學科能力測驗試題與解析即日起發售，內容包含各科試題、參考答案及試題解析等部分，以「國文、英文、數學Ａ數學Ｂ、社會、自然」各科分科的編輯方式出版。</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">113-12-09</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328138027351868">113學年度分科測驗試題與解析即日起發售，內容包含各科試題、參考答案及試題解析等部分，以「數學甲、歷史、地理、公民與社會、物理、化學、生物」各科分科的編輯方式出版。</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">113-09-30</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886">113學年度學科能力測驗試題與解析即日起發售，內容包含各科試題、參考答案及試題解析等部分，以「國文、英文、數學Ａ數學Ｂ、社會、自然」各科分科的編輯方式出版。</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                        <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352213072616728" >更多</a></div>
+                                </div>
+                            </div>
+                            <div id="tab5" class="tab_cont">
+                                <div class="cont_box">
+                                    <ul>
+                                            <li>
+                                                <div class="date">115-08-28</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q240529949717640537/pims-4-0-002-003%20%e6%87%89%e5%be%b5%e8%80%85%e5%80%8b%e4%ba%ba%e8%b3%87%e6%96%99%e8%92%90%e9%9b%86%e3%80%81%e8%99%95%e7%90%86%e5%8f%8a%e5%88%a9%e7%94%a8%e5%91%8a%e7%9f%a5%e4%ba%8b%e9%a0%85%28v2.0%2011508%29.pdf" target="_blank">應徵者個人資料蒐集、處理及利用告知事項(v2.0 11508)</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-26</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q238326837773780175/115%e6%b1%82%e6%89%8d%e5%95%9f%e4%ba%8b-%e3%80%90%e5%b0%88%e6%a1%88%e8%a8%88%e7%95%ab%e3%80%91%e7%a8%8b%e5%bc%8f%e8%a8%ad%e8%a8%882%e5%90%8d.pdf" target="_blank">求才啟事-【專案計畫】程式設計2名</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-26</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q238326575872115148/115%e6%b1%82%e6%89%8d%e5%95%9f%e4%ba%8b-%e3%80%90%e5%b0%88%e6%a1%88%e8%a8%88%e7%95%ab%e3%80%91%e7%b3%bb%e7%b5%b1%e7%ae%a1%e7%90%861%e5%90%8d.pdf" target="_blank">求才啟事-【專案計畫】系統管理1名</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-26</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q240538680404214651/115%e6%b1%82%e6%89%8d%e5%95%9f%e4%ba%8b-%e3%80%90%e5%b0%88%e6%a1%88%e8%a8%88%e7%95%ab%e3%80%91%e5%9c%8b%e6%96%87%e7%a7%91%e7%a0%94%e7%a9%b6%e5%93%a1.pdf" target="_blank">求才啟事-【專案計畫】國文科研究員1名</a>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="date">115-08-26</div>
+                                                <div class="cont">
+                                                        <a href="https://www.ceec.edu.tw/files/file_pool/1/0q238324780270752519/115%e6%b1%82%e6%89%8d%e5%95%9f%e4%ba%8b-%e3%80%90%e5%b0%88%e6%a1%88%e8%a8%88%e7%95%ab%e3%80%91%e8%a8%88%e7%95%ab%e5%b0%88%e4%bb%bb%e8%a1%8c%e6%94%bf%e4%ba%ba%e5%93%a1%28%e6%9c%83%e8%a8%88%291%e5%90%8d.pdf" target="_blank">115求才啟事-【專案計畫】計畫專任行政人員(會計)1名</a>
+                                                </div>
+                                            </li>
+                                    </ul>
+                                        <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352369522959286" >更多</a></div>
+                                </div>
+                            </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        //頁籤效果
+        $(function(){
+            // 預設顯示第一個 Tab
+            var _showTab_cust = 0;
+            $('.tabs_group_cust').each(function(){
+                var $tab = $(this);
+
+                //以 1 為起始的 newstab
+                if (commonHelper.isNumber($.getUrlVar('newstab'))) {
+                    var newTabIdx = parseInt($.getUrlVar('newstab'), 10);
+                    if (newTabIdx > 0 && newTabIdx <= $('div.tabs li.tab', $tab).length) {
+                        _showTab_cust = newTabIdx - 1;
+                    }
+                }
+
+                var $defaultLi = $('div.tabs li.tab', $tab).eq(_showTab_cust).addClass('active');
+                $($defaultLi.find('a').attr('href')).siblings().hide();
+            
+                $('div.tabs li.tab', $tab).click(function() {
+                    var $this = $(this),
+                        _clickTab = $this.find('a').attr('href');
+                    $this.addClass('active').siblings('.active').removeClass('active');
+                    $(_clickTab).stop(false, true).fadeIn().siblings().hide();
+
+                    return false;
+                }).find('a').focus(function(){
+                    this.blur();
+                });
+            });
+        });
+    </script>
+
+
+
+
+<div class="IndexBlock IndexMain">
+    <div>
+        <!-- 年度考試簡章 -->
+        <div class="IndexExamForm">
+            <div>
+                <div class="indexTitle"><h3>116學年度考試簡章</h3></div>
+                <div class="btn_list">
+                    <ul>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0q215601929252011195/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%b0%a1%e7%ab%a0.pdf" target="_blank">簡章</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/CeecNews/116簡章有聲版/116RulesMP3Index.html" target="_blank">有聲版</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0q215602074068375626/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%80%83%e8%a9%a6%e9%87%8d%e8%a6%81%e8%a9%a6%e5%8b%99%e6%97%a5%e6%9c%9f.pdf" target="_blank">重要日程</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0q215602201798465239/%e9%87%8d%e8%a6%81%e7%b7%a8%e8%bc%af%e8%aa%aa%e6%98%8e.pdf" target="_blank">重要編輯說明</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0q215602324223819284/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%b2%be%e9%81%b8%e7%ab%a0%e7%af%80%e7%9b%ae%e9%8c%84.pdf" target="_blank">精選章節</a>
+                            </li>
+                            <li>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0q216320119244210370/116%e7%b0%a1%e7%ab%a0%e7%99%bc%e5%94%ae%e6%96%b9%e5%bc%8f.pdf" target="_blank">簡章發售</a>
+                            </li>
+
+                        
+                        
+                        
+                        
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="IndexExamPoint eqHeight">
+            <!-- 高中英聽測驗 -->
+            <div class="listen_text item">
+                <div>
+                        <div class="indexTitle"><h3>高中英語聽力測驗</h3></div>
+                        <div class="news-box">
+                            <ul>
+                                    <li>
+                                        <div class="date">115-09-21</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/files/file_pool/1/0q261385247769263238/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e9%ab%98%e4%b8%ad%e8%8b%b1%e8%aa%9e%e8%81%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%80%83%e7%94%9f%e6%87%89%e8%80%83%e6%8f%90%e9%86%92%e3%80%81%e8%80%83%e5%89%8d%e6%aa%a2%e6%9f%a5%e6%9a%a8%e6%87%89%e8%80%83%e6%b3%a8%e6%84%8f%e4%ba%8b%e9%a0%85.pdf"  target="_blank" title="116學年度高中英語聽力測驗考生應考提醒、考前檢查暨應考注意事項(另開新視窗)">
+                                                116學年度高中英語聽力測驗考生應考提醒、考前檢查暨應考注意事項
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">115-09-03</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/files/file_pool/1/0q245311581950041188/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%90%84%e9%a0%85%e8%80%83%e8%a9%a6_%e5%a0%b1%e5%90%8d%e5%b8%b8%e8%a6%8b%e5%95%8f%e9%a1%8c.pdf"  target="_blank" title="116學年度各項考試報名常見問答集(另開新視窗)">
+                                                116學年度各項考試報名常見問答集
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">115-08-20</div>
+                                        <div class="cont">
+                                            <a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/C1"  target="_blank" title="116學年度高中英語聽力測驗「試務專區」(另開新視窗)">
+                                                116學年度高中英語聽力測驗「試務專區」
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">112-09-01</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018576253614017417&amp;sid=0M200595497962808262"  target="_blank" title="公告高中英語聽力測驗試題示例8(另開新視窗)">
+                                                公告高中英語聽力測驗試題示例8
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">111-10-03</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018576253614017417&amp;sid=0M200595497962808262"  target="_blank" title="公告高中英語聽力測驗試題示例7(另開新視窗)">
+                                                公告高中英語聽力測驗試題示例7
+                                            </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                                <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352816796918817" >更多</a></div>
+                        </div>
+                    <div class="info_box">
+                        <div class="media-wrap">
+                            <!-- 圖片的比例為16:9 (依照youtube預設的影片尺寸比例),
+                                上傳圖片可以用560px x 315px
+                            -->
+                        </div>
+
+                        <ul class="tag-list">
+                            <li>
+                                    <a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/C1" target="_blank">試務專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" target="_blank">下載專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576017163884959" target="_blank">考試說明</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576253614017417" target="_blank">試題示例</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576409065359986" target="_blank">統計資料</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 學科能力測驗-->
+            <div class="subject_text item">
+                <div>
+                        <div class="indexTitle"><h3>學科能力測驗</h3></div>
+                        <div class="news-box">
+                            <ul>
+                                    <li>
+                                        <div class="date">115-10-02</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/files/file_pool/1/0q272395015804320340/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%90%84%e9%a0%85%e8%80%83%e8%a9%a6_%e5%a0%b1%e5%90%8d%e5%b8%b8%e8%a6%8b%e5%95%8f%e9%a1%8c.pdf"  target="_blank" title="116學年度各項考試報名常見問答集(另開新視窗)">
+                                                116學年度各項考試報名常見問答集
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">113-02-19</div>
+                                        <div class="cont">
+                                            <a href="/xmdoc/cont?xsmsid=0I363352927974766861&amp;sid=0O032509525199955411"  title="113學年度學科能力測驗各考科非選擇題評分原則">
+                                                113學年度學科能力測驗各考科非選擇題評分原則
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">112-02-23</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018604485538810196&amp;sid=0N018387842066834903"  target="_blank" title="112學年度學科能力測驗統計圖表(另開新視窗)">
+                                                112學年度學科能力測驗統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">111-03-01</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018604485538810196&amp;sid=0M060339656493866423"  target="_blank" title="111學年度學科能力測驗統計圖表(另開新視窗)">
+                                                111學年度學科能力測驗統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">110-02-24</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018604485538810196&amp;sid=0L055368691889545285"  target="_blank" title="110學年度學科能力測驗統計圖表(另開新視窗)">
+                                                110學年度學科能力測驗統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                                <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352927974766861" >更多</a></div>
+                        </div>
+                    <div class="info_box">
+                        <div class="media-wrap">
+                            <!-- 圖片的比例為16:9 (依照youtube預設的影片尺寸比例),
+                                上傳圖片可以用560px x 315px
+                            -->
+                        </div>
+                        <ul class="tag-list">
+                            <li>
+                                    <a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/A" target="_blank">試務專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" target="_blank">下載專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018585845010094026" target="_blank">考試說明</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018586101460336585" target="_blank">參考試卷</a>
+                                    <a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424829869345634" target="_blank">歷年試題</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604485538810196" target="_blank">統計資料</a>
+                                    <a href="https://www.cac.edu.tw/cacportal/index.php" target="_blank">大學甄選入學委員會招生訊息</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 指定科目考試-->
+            <div class="appoint_text item">
+                <div>
+                        <div class="indexTitle"><h3>分科測驗(110前指考)</h3></div>
+                        <div class="news-box">
+                            <ul>
+                                    <li>
+                                        <div class="date">115-10-02</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/files/file_pool/1/0q272397265969764908/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%90%84%e9%a0%85%e8%80%83%e8%a9%a6_%e5%a0%b1%e5%90%8d%e5%b8%b8%e8%a6%8b%e5%95%8f%e9%a1%8c.pdf"  target="_blank" title="116學年度各項考試報名常見問答集(另開新視窗)">
+                                                116學年度各項考試報名常見問答集
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">112-07-28</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018611000723433352&amp;sid=0N209298389091904564"  target="_blank" title="112學年度分科測驗統計圖表(另開新視窗)">
+                                                112學年度分科測驗統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">112-05-31</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/files/file_pool/1/0n151348113954085532/%e8%a9%a6%e5%8b%99%e5%ae%a3%e5%b0%8e_%e5%8b%95%e7%95%ab_%e6%87%89%e8%a9%a6%e6%9c%89%e6%95%88%e8%ad%89%e4%bb%b6.mp4"  target="_blank" title="112分科測驗試務宣導-應試有效證件篇(另開新視窗)">
+                                                112分科測驗試務宣導-應試有效證件篇
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">111-07-27</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018611000723433352&amp;sid=0M208342795156414778"  target="_blank" title="111學年度分科測驗統計圖表(另開新視窗)">
+                                                111學年度分科測驗統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="date">110-08-16</div>
+                                        <div class="cont">
+                                            <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018611000723433352&amp;sid=0L228398175731365110"  target="_blank" title="110學年度指定科目考試統計圖表(另開新視窗)">
+                                                110學年度指定科目考試統計圖表
+                                            </a>
+                                        </div>
+                                    </li>
+                            </ul>
+                                <div class="btn"><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363353018153514816" >更多</a></div>
+                        </div>
+                    <div class="info_box">
+                        <div class="media-wrap">
+                            <!-- 圖片的比例為16:9 (依照youtube預設的影片尺寸比例),
+                                上傳圖片可以用560px x 315px
+                            -->
+                        </div>
+
+                        <ul class="tag-list">
+                            <li>
+                                    <a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/B" target="_blank">試務專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" target="_blank">下載專區</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609653929908281" target="_blank">考試說明</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609919479141840" target="_blank">參考試卷</a>
+                                    <a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052427633128416650" target="_blank">歷年試題</a>
+                                    <a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611000723433352" target="_blank">統計資料</a>
+                                    <a href="https://www.uac.edu.tw/" target="_blank">大學考試入學分發委員會招生訊息</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 最新消息+生涯輔導+素養命題 start -->
+<div class="IndexBlock IndexMain2 eqHeight">
+    <!-- 素養命題 -->
+    <div class="IndexProposition C_and_P item">
+        <div>
+            <div class="indexTitle"><h3>宣導與研習</h3></div>
+            <div class="desc">透過影音媒介與會議辦理，提供各界了解大考命題設計與閱卷機制。</div>
+            <div class="btn_box eqHeight">
+                    <div class="item"><a class="title" href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585"><img src="/files/file_pool/1/0i359497647354471474/icon_index5.png" alt="簡報與短片"><span>簡報與短片</span></a></div>
+                    <div class="item"><a class="title" href="https://www.ceec.edu.tw/xmevent?xsmsid=0J109607120360363338"><img src="https://www.ceec.edu.tw/files/file_pool/1/0i359497668998340491/icon_index6.png" alt="研習訊息"><span>研習訊息</span></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 生涯輔導 -->
+    <div class="IndexCareer C_and_P item">
+        <div>
+            <div class="indexTitle"><h3>考生試務宣導</h3></div>
+            <div class="desc">透過影音媒介與各類說明，提醒考生各項應考注意事項。</div>
+            <div class="btn_box eqHeight">
+                    <div class="item"><a class="title" href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M102440208126972687"><img src="/files/file_pool/1/0i359496955097875375/icon_index1.png" alt="影音專區"><span>影音專區</span></a></div>
+                    <div class="item"><a class="title" href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M098592820611186512"><img src="https://www.ceec.edu.tw/files/file_pool/1/0i359497137710592447/icon_index4.png" alt="試訊快遞"><span>試訊快遞</span></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 選才育才 -->
+    <div class="IndexCultivate C_and_P item">
+        <div>
+            <div class="indexTitle"><h3>生涯輔導</h3></div>
+            <div class="desc">以自我認識的生涯測驗，及認識大學之學群學類學系，來協助高中生進行生涯與升學探索。</div>
+            <div class="btn_box eqHeight">
+                    <div class="item"><a class="title" href="https://career.ceec.edu.tw/"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j085423972018529090/icon_index12.png" alt=" 生涯測驗"><span> 生涯測驗</span></a></div>
+                    <div class="item"><a class="title" href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J325537256835299426"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j085423902474650072/icon_index11.png" alt="生涯訊息"><span>生涯訊息</span></a></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- 最新消息+生涯輔導+素養命題 end -->
+
+    <div class="IndexBlock IndexNewsletter">
+            <div>
+                <div class="left_col">
+                    <div class="indexTitle">
+                        <img src="https://www.ceec.edu.tw/files/file_pool/1/0j072433032118130818/img_newsletter.png" alt="選才電子報">
+                        <h3>選才電子報</h3>
+                    </div>
+                    <div class="issue">
+                        <div class="img"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j072432886302776377/img_newsletter2.png" alt="選才電子報"></div>
+                        <div class="list-box">
+                            <ul>
+                                    <li><a href="/xcepaper/home?xsmsid=0J066588036013658199&amp;sid=0Q252586588219181161" title="選才352期">選才352期</a></li>
+                                    <li><a href="/xcepaper/home?xsmsid=0J066588036013658199&amp;sid=0Q105359543716106563" title="選才351期">選才351期</a></li>
+                                    <li><a href="/xcepaper/home?xsmsid=0J066588036013658199&amp;sid=0P345620114691898775" title="選才350期">選才350期</a></li>
+                                    <li><a href="/xcepaper/home?xsmsid=0J066588036013658199&amp;sid=0P254532642964365675" title="選才349期">選才349期</a></li>
+                                    <li><a href="/xcepaper/home?xsmsid=0J066588036013658199&amp;sid=0P157616553261835915" title="選才348期">選才348期</a></li>
+                            </ul>
+                            <div class="btn"><a href="/xcepaper/peroid?xsmsid=0J066588036013658199" title="更多">更多</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right_col">
+                    <div class="cont-box">
+                        <div class="tt">選才電子報</div>
+                        <div class="desc">每期以當月15日出刊為原則（若遇國定假日或例假日，則順延至下一個工作日），各期專題將依需求靈活規劃，並視實際情況調整出刊期數與頻次。同時亦將依各期稿件性質，適時安排刊登日期，以確保資訊之即時性與適切性。</div>
+                    </div>
+                    <div class="list-box">
+                        <ul>
+                            <li><a href="/xcepaper/subscription?XsmSId=0J066588036013658199"  title="訂閱/取消電子報"><img src="/theme/client/images/icon_newsletter1.png" alt="訂閱/取消電子報">訂閱/取消電子報</a></li>
+                            <li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110619899420480958&amp;xsmsid=0J066588036013658199"><img src="/theme/client/images/icon_newsletter4.png" alt="徵稿啟示">徵稿啟示</a></li>
+                            <li><a href="/xcepaper/search?XsmSId=0J066588036013658199"><img src="/theme/client/images/icon_newsletter3.png" alt="進階搜尋">進階搜尋</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- 熱門出版品 start-->
+    <div class="IndexPublication">
+        <div>
+            <div class="indexTitle">
+                <h3>簡章/出版品</h3>
+                <ul class="item">
+                        <li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886"  title=" 試題系列"> 試題系列<img src="/theme/client/images/icon_link.png" alt="前往連結"></a></li>
+                        <li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441"  title=" 心理測驗"> 心理測驗<img src="/theme/client/images/icon_link.png" alt="前往連結"></a></li>
+                </ul>
+            </div>
+            <div class="list_publish_box">
+                <div class="owl-carousel">
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166548953450953093"  title="115學年度學科能力測驗試題與解析-國文、英文、數學A數學B、社會、自然考科(共5本)">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166549839900195561/1011071-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-%e5%9c%8b%e6%96%87%e3%80%81%e8%8b%b1%e6%96%87%e3%80%81%e6%95%b8%e5%ad%b8ab%e3%80%81%e7%a4%be%e6%9c%83%e3%80%81%e8%87%aa%e7%84%b6%e8%80%83%e7%a7%91%28%e5%85%b15%e6%9c%ac%29v.2.png" alt="115學年度學科能力測驗試題與解析-國文、英文、數學A數學B、社會、自然考科(共5本)">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-國文、英文、數學A數學B、社會、自然考科(共5本)</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166546903839398563"  title="115學年度學科能力測驗試題與解析-自然考科">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166548229101782076/5%e5%b0%81%e9%9d%a2-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-5%e8%87%aa%e7%84%b6%e8%80%83%e7%a7%911150527%28v.2%29.png" alt="115學年度學科能力測驗試題與解析-自然考科">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-自然考科</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166544189036348419"  title="115學年度學科能力測驗試題與解析-社會考科">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166545104308732923/5%e5%b0%81%e9%9d%a2-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-4%e7%a4%be%e6%9c%83%e8%80%83%e7%a7%911150527%28v.2%29.png" alt="115學年度學科能力測驗試題與解析-社會考科">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-社會考科</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166537890406783989"  title="115學年度學科能力測驗試題與解析-數學A、數學B考科">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166543315778177493/5%e5%b0%81%e9%9d%a2-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-3%e6%95%b8%e5%ad%b8%ef%bc%a1%e3%80%81%e6%95%b8%e5%ad%b8%ef%bc%a2%e8%80%83%e7%a7%911150527%28v.2%29.png" alt="115學年度學科能力測驗試題與解析-數學A、數學B考科">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-數學A、數學B考科</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166533715503733935"  title="115學年度學科能力測驗試題與解析-英文考科">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166534950875128449/5%e5%b0%81%e9%9d%a2-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-2%e8%8b%b1%e6%96%87%e8%80%83%e7%a7%911150527%28v.2%29.png" alt="115學年度學科能力測驗試題與解析-英文考科">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-英文考科</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q166528513903855323"  title="115學年度學科能力測驗試題與解析-國文考科">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q166531648175240837/5%e5%b0%81%e9%9d%a2-115%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%ad%b8%e7%a7%91%e8%83%bd%e5%8a%9b%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-1%e5%9c%8b%e6%96%87%e8%80%83%e7%a7%911150527%28v.2%29.png" alt="115學年度學科能力測驗試題與解析-國文考科">
+                                    <div class="tt">學科能力測驗系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">115學年度學科能力測驗試題與解析-國文考科</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0P328580888381913513"  title="114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物、歷史、地理、公民與社會考科(共7本)">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0p328581473653498027/1021106-114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%88%86%e7%a7%91%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-%e6%95%b8%e5%ad%b8%e7%94%b2%e4%b9%99%e3%80%81%e7%89%a9%e7%90%86%e3%80%81%e5%8c%96%e5%ad%b8%e3%80%81%e7%94%9f%e7%89%a9%e3%80%81%e6%ad%b7%e5%8f%b2%e3%80%81%e5%9c%b0%e7%90%86%e3%80%81%e5%85%ac%e6%b0%91%e8%88%87%e7%a4%be%e6%9c%83%e8%80%83%e7%a7%91%28%e5%85%b17%e6%9c%ac%29550.png" alt="114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物、歷史、地理、公民與社會考科(共7本)">
+                                    <div class="tt">分科測驗(110前指考)系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物、歷史、地理、公民與社會考科(共7本)</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0P328576125146157074"  title="114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物考科(共4本)">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0p328577280418641598/1021104-114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%88%86%e7%a7%91%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-%e6%95%b8%e5%ad%b8%e7%94%b2%e4%b9%99%e3%80%81%e7%89%a9%e7%90%86%e3%80%81%e5%8c%96%e5%ad%b8%e3%80%81%e7%94%9f%e7%89%a9%e8%80%83%e7%a7%91%28%e5%85%b14%e6%9c%ac%29350.png" alt="114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物考科(共4本)">
+                                    <div class="tt">分科測驗(110前指考)系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">114學年度分科測驗試題與解析-數學甲乙、物理、化學、生物考科(共4本)</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0P328578209304327001"  title="114學年度分科測驗試題與解析-歷史、地理、公民與社會考科(共3本)">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0p328580494676712514/1021105-114%e5%ad%b8%e5%b9%b4%e5%ba%a6%e5%88%86%e7%a7%91%e6%b8%ac%e9%a9%97%e8%a9%a6%e9%a1%8c%e8%88%87%e8%a7%a3%e6%9e%90-%e6%ad%b7%e5%8f%b2%e3%80%81%e5%9c%b0%e7%90%86%e3%80%81%e5%85%ac%e6%b0%91%e8%88%87%e7%a4%be%e6%9c%83%e8%80%83%e7%a7%91%28%e5%85%b13%e6%9c%ac%29250.png" alt="114學年度分科測驗試題與解析-歷史、地理、公民與社會考科(共3本)">
+                                    <div class="tt">分科測驗(110前指考)系列</div>
+                                </a>
+                            </div>
+                            <div class="cont">114學年度分科測驗試題與解析-歷史、地理、公民與社會考科(共3本)</div>
+                        </div>
+                        <div class="item">
+                            <div class="img-box">
+                                <a href="/xcecbook/cont?xsmsid=0J090239151495413846&amp;sid=0Q197599007326460907"  title="116學年度考試簡章-個人">
+                                    <img src="https://www.ceec.edu.tw/files/file_pool/1/0q203570365388073608/116%e7%b0%a1%e7%ab%a0-%e5%80%8b%e4%ba%ba%e8%a8%82%e8%b3%bc.png" alt="116學年度考試簡章-個人">
+                                    <div class="tt">考試簡章</div>
+                                </a>
+                            </div>
+                            <div class="cont">116學年度考試簡章-個人</div>
+                        </div>
+                </div>
+            </div>
+
+                <div class="btn"><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846" >更多</a></div>
+        </div>
+    </div>
+<!-- 熱門出版品 end-->
+<!-- 相關網站 start-->
+<div class="IndexBlock IndexLinks">
+    <div>
+        <div class="indexTitle"><h3>相關網站</h3></div>
+        <div class="list-box">
+            <ul>
+                    <li><a href="https://depart.moe.edu.tw/ED2200/" target="_blank" title="教育部"><img src="https://www.ceec.edu.tw/files/file_pool/1/0i359513464201794981/link01.png" alt="教育部"></a></li>
+                    <li><a href="http://www.jbcrc.edu.tw/" target="_blank" title="大學招生委員會聯合會"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053428393212064024/%e5%a4%a7%e5%ad%b8%e6%8b%9b%e7%94%9f%e5%a7%94%e5%93%a1%e6%9c%83%e8%81%af%e5%90%88%e6%9c%83.png" alt="大學招生委員會聯合會"></a></li>
+                    <li><a href="https://www.cac.edu.tw/cacportal/index.php" target="_blank" title="大學甄選入學委員會"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053433526629526750/%e5%a4%a7%e5%ad%b8%e7%94%84%e9%81%b8%e5%85%a5%e5%ad%b8%e5%a7%94%e5%93%a1%e6%9c%83.png" alt="大學甄選入學委員會"></a></li>
+                    <li><a href="https://www.uac.edu.tw/" target="_blank" title="大學考試入學分發委員會"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053433907263495777/%e5%a4%a7%e5%ad%b8%e8%80%83%e8%a9%a6%e5%85%a5%e5%ad%b8%e5%88%86%e7%99%bc%e5%a7%94%e5%93%a1%e6%9c%83.png" alt="大學考試入學分發委員會"></a></li>
+                    <li><a href="https://www.cape.edu.tw/" target="_blank" title="大學術科考試委員會聯合會"><img src="https://www.ceec.edu.tw/files/file_pool/1/0l090614646767807350/%e8%a1%93%e7%a7%91%e5%a7%94%e5%93%a1%e6%9c%83.png" alt="大學術科考試委員會聯合會"></a></li>
+                    <li><a href="https://www.jctv.ntut.edu.tw" target="_blank" title="技專校院招生委員會聯合會"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053437187962808262/%e6%8a%80%e5%b0%88%e6%a0%a1%e9%99%a2%e6%8b%9b%e7%94%9f%e5%a7%94%e5%93%a1%e6%9c%83%e8%81%af%e5%90%88%e6%9c%83.png" alt="技專校院招生委員會聯合會"></a></li>
+                    <li><a href="http://nsdua.moe.edu.tw/" target="_blank" title="大學多元入學升學網"><img src="https://www.ceec.edu.tw/files/file_pool/1/0q089666580560957303/%e5%8d%87%e5%ad%b8%e7%b6%b2.png" alt="大學多元入學升學網"></a></li>
+                    <li><a href="https://www.naer.edu.tw/bin/home.php" target="_blank" title="國家教育研究院"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053507785215018478/link14.png" alt="國家教育研究院"></a></li>
+                    <li><a href="https://www.tcte.edu.tw/page_new.php" target="_blank" title="技專校院入學測驗中心"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053490510020015031/link09.png" alt="技專校院入學測驗中心"></a></li>
+                    <li><a href="https://www.rcpet.ntnu.edu.tw/" target="_blank" title="心理與教育測驗研究發展中心"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053490880664984059/link10.jpg" alt="心理與教育測驗研究發展中心"></a></li>
+                    <li><a href="http://www.hkeaa.edu.hk/tc/" target="_blank" title="香港考試及評核局"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053505290322068325/link11.png" alt="香港考試及評核局"></a></li>
+                    <li><a href="https://www.ets.org/" target="_blank" title="ETS (Education Testing Service)"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053505591591816379/link12.png" alt="ETS (Education Testing Service)"></a></li>
+                    <li><a href="https://www.act.org/" target="_blank" title="ACT (American College Testing)"><img src="https://www.ceec.edu.tw/files/file_pool/1/0j053507464036260424/link13.png" alt="ACT (American College Testing)"></a></li>
+                    <li><a href="https://collego.edu.tw/" target="_blank" title="Collego"><img src="https://www.ceec.edu.tw/files/file_pool/1/0l090614415123928332/collego2.png" alt="Collego"></a></li>
+            </ul>
+        </div>
+    </div>
+</div><!-- 相關網站 end-->
+    </div>
+
+
+        <!--Top -->
+        <div class="BtnTop"><a href="#" title="回最上層">TOP</a></div>
+
+        <!--Footer -->
+
+        <div id="Footer">
+            <div>
+                <ul class="footer_menu"><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="最新消息" id="menu0J019490293413040721" menu-code="0J019490293413040721">最新消息</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="新聞稿/公告" id="menu0J019495771369260888" menu-code="0I363338985390931117">新聞稿/公告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352102893869773" title="會議/活動訊息" id="menu0J019495966276623429" menu-code="0I363352102893869773">會議/活動訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352213072616728" title="出版訊息" id="menu0J019496092082987960" menu-code="0I363352213072616728">出版訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352369522959286" title="求才啟事" id="menu0J019496258998340491" menu-code="0I363352369522959286">求才啟事</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="關於中心" id="menu0J019490574691898775" menu-code="0J019490574691898775">關於中心</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="簡介" id="menu0J019496393805704932" menu-code="0I363352685517160772">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018543724743104681" title="組織架構" id="menu0J019496559711077474" menu-code="0J018543724743104681">組織架構</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553683195911166" title="各單位職掌" id="menu0J019496745628430905" menu-code="0J018553683195911166">各單位職掌</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553859646154635" title="我們的主任" id="menu0J019496910434794446" menu-code="0J018553859646154635">我們的主任</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400224817662442" title="國際交流" id="menu0J050408222017163111" menu-code="0J050408222017163111">國際交流</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" title="公開資訊" id="menu0J019497437529905931" menu-code="0J019497437529905931">公開資訊</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018559180686000251" title="我們的位置" id="menu0J019502402500703930" menu-code="0J018559180686000251">我們的位置</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352816796918817" title="高中英語聽力測驗" id="menu0J019490760408252206" menu-code="0J019490760408252206">高中英語聽力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352816796918817" title="考試訊息" id="menu0J019502568417166461" menu-code="0I363352816796918817">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/C1" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019502694323420902" menu-code="0J019502694323420902">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018575771613542490" title="簡介" id="menu0J019503169239893543" menu-code="0J018575771613542490">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576017163884959" title="考試說明" id="menu0J019503285146157074" menu-code="0J018576017163884959">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576253614017417" title="試題示例/參考試卷" id="menu0J019503541952510515" menu-code="0J018576253614017417">試題示例/參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0K213553204833715309" title="高中英文參考詞彙表" id="menu0K213555707854443770" menu-code="0K213553204833715309">高中英文參考詞彙表</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576586515691444" title="選才文摘" id="menu0J019503882775247597" menu-code="0J018576586515691444">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576409065359986" title="統計資料" id="menu0J019503676869873056" menu-code="0J018576409065359986">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J019504028681600028" menu-code="0J019504028681600028">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J019504449304327001" menu-code="0J019504449304327001">下載專區</a></li>
+<li><a href="https://www.ceec.edu.tw/files/file_pool/1/0N241391214032222778/%E9%AB%98%E4%B8%AD%E8%8B%B1%E8%AA%9E%E8%81%BD%E5%8A%9B%E6%B8%AC%E9%A9%97%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C.pdf" title="常見問題 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0K251341682712059860" menu-code="0K251341682712059860">常見問題</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352927974766861" title="學科能力測驗" id="menu0J019491035314515747" menu-code="0J019491035314515747">學科能力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352927974766861" title="考試訊息" id="menu0J019504961761923000" menu-code="0I363352927974766861">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/A" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019505136668286531" menu-code="0J019505136668286531">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018585669569761568" title="簡介" id="menu0J019505382474650072" menu-code="0J018585669569761568">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018585845010094026" title="考試說明" id="menu0J019505518381913513" menu-code="0J018585845010094026">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018586101460336585" title="參考試卷" id="menu0J019505933297377044" menu-code="0J018586101460336585">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018586337911578043" title="研究用試題" id="menu0J019506059103630585" menu-code="0J018586337911578043">研究用試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091480409937740140" title="試辦考試" id="menu0M091535509420480958" menu-code="0M091535509420480958">試辦考試</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424829869345634" title="歷年試題及答題卷" id="menu0J019506225010094026" menu-code="0J019506225010094026">歷年試題及答題卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071624926253508127" title="佳作" id="menu0J071640104162413381" menu-code="0J071624926253508127">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406542978782512" title="選才文摘" id="menu0J188424139406896328" menu-code="0J171406542978782512">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604485538810196" title="統計資料" id="menu0J019507017555447071" menu-code="0J018604485538810196">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604611989052655" title="工作報告" id="menu0J019507163462801602" menu-code="0J018604611989052655">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J019507309378174143" menu-code="0J019507309378174143">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J019507484185538684" menu-code="0J019507484185538684">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363353018153514816" title="分科測驗&lt;/br>(110前指考)" id="menu0J019491211220989289" menu-code="0J019491211220989289">分科測驗</br>(110前指考)</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363353018153514816" title="考試訊息" id="menu0J019509091635770142" menu-code="0I363353018153514816">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/B" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019509326542134683" menu-code="0J019509326542134683">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018609467578676713" title="簡介" id="menu0J019509887720982638" menu-code="0J018609467578676713">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609653929908281" title="考試說明" id="menu0J019511813537345169" menu-code="0J018609653929908281">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609919479141840" title="參考試卷" id="menu0J019512738443608600" menu-code="0J018609919479141840">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018610105920483308" title="研究用試題" id="menu0J019512884359062141" menu-code="0J018610105920483308">研究用試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052427633128416650" title="歷年試題及答題卷" id="menu0J019517890266335672" menu-code="0J019517890266335672">歷年試題及答題卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071646661300229964" title="佳作" id="menu0J071647814480542936" menu-code="0J071646661300229964">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406874235388511" title="選才文摘" id="menu0J188424250685644373" menu-code="0J171406874235388511">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611000723433352" title="統計資料" id="menu0J019520263701779627" menu-code="0J018611000723433352">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611166273765810" title="工作報告" id="menu0J019521838618143168" menu-code="0J018611166273765810">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J019522034524406609" menu-code="0J019522034524406609">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J019522830331869130" menu-code="0J019522830331869130">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="宣導與研習" id="menu0J019491992043605251" menu-code="0J019491992043605251">宣導與研習</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="簡報與短片" id="menu0J193628847557916498" menu-code="0J177009711460336585">簡報與短片</a></li>
+<li><a href="https://www.ceec.edu.tw/xmevent?xsmsid=0J109607120360363338" title="研習訊息" id="menu0J188425186670755869" menu-code="0J109607120360363338">研習訊息</a></li>
+</ul></li>
+<li><a title="生涯輔導" id="menu0J019491597137242710" menu-code="0J019491597137242710">生涯輔導</a><ul><li><a href="https://career.ceec.edu.tw" title="生涯測驗 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J019523245247223671" menu-code="0J019523245247223671">生涯測驗</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J325537256835299426" title="生涯訊息" id="menu0J338541235639896893" menu-code="0J325537256835299426">生涯訊息</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="出版/訂購" id="menu0J188425412120098327" menu-code="0J188425412120098327">出版/訂購</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="簡章">簡章</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886" title="試題系列">試題系列</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441" title="心理測驗">心理測驗</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328735465854956" title="其他">其他</a></li>
+<li><a href="/xcecbook/cart?xsmsid=0J090239151495413846" title="購物車">購物車</a></li>
+<li><a href="/xcecbook/order?xsmsid=0J090239151495413846" title="訂單查詢">訂單查詢</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="選才電子報" id="menu0J188425543755967355" menu-code="0J188425543755967355">選才電子報</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="當期內容">當期內容</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/peroid?xsmsid=0J066588036013658199" title="各期目錄">各期目錄</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q252591339361786258&amp;xsmsid=0J066588036013658199" title="專題報報">專題報報</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616104134302815&amp;xsmsid=0J066588036013658199" title="試訊快遞">試訊快遞</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066633081664881609&amp;xsmsid=0J066588036013658199" title="學習錦囊">學習錦囊</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632128429024070&amp;xsmsid=0J066588036013658199" title="教育服務">教育服務</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P265367265048005583&amp;xsmsid=0J066588036013658199" title="試題影音">試題影音</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614317330887844&amp;xsmsid=0J066588036013658199" title="科普專區">科普專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614378153514816&amp;xsmsid=0J066588036013658199" title="數字真相">數字真相</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616640928936985&amp;xsmsid=0J066588036013658199" title="招生選才">招生選才</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110619899420480958&amp;xsmsid=0J066588036013658199" title="研究論述專欄">研究論述專欄</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J093450035061333235&amp;xsmsid=0J066588036013658199" title="中心剪影">中心剪影</a></li>
+</ul></li>
+</ul> 
+                <div class="footer_info">
+                    <div class="img"><a><img src="https://www.ceec.edu.tw/files/file_pool/1/0q243406206328939235/114-0505-logo-9.png" alt="大考中心" /></a></div>
+                    <div class="info-box">
+                        <div class="text">
+                                <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" target=&quot;_blank&quot; title="個人資料保護">個人資料保護</a>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0L236715581715011728/%E5%A4%A7%E8%80%83%E4%B8%AD%E5%BF%83%E8%B3%87%E9%80%9A%E5%AE%89%E5%85%A8%E6%94%BF%E7%AD%96%E8%81%B2%E6%98%8E.pdf" target=&quot;_blank&quot; title="資通安全政策">資通安全政策</a>
+                                <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018559180686000251" target=&quot;_blank&quot; title="我們的位置">我們的位置</a>
+                                <a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J290351513057919748" target=&quot;_blank&quot; title="Line官方帳號">Line官方帳號</a>
+                                <a href="https://www.ceec.edu.tw/files/file_pool/1/0Q245474553537345169/大學入學考試中心商標使用管理聲明.pdf" target=&quot;_blank&quot; title="商標專區">商標專區</a>
+                        </div>
+                        
+                        
+                        
+                        <div class="text">
+                            <span>電話：(02)2366-1416(代表號)</span>
+                                                                                        <span>傳真：(02)2362-0755</span>
+                        </div>
+                        <div class="text">
+                                <span>地址：106032臺北市大安區舟山路237號</span>
+                                                            <span>郵政信箱：100971臺北汀州郵局第64號信箱 (115.01.01起停用)</span>
+                        </div>
+                        <div class="text"><span>更新日期：115-10-07</span></div>
+
+                        <!--Copyright-->
+                        <div id="Copyright">
+                            <span>
+大學入學考試中心 版權所有 &copy; 2026 All Rights Reserved.                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<!-- 行動裝置版選單 -->
+<div id="nav">
+    <div class="switch"><a href="#MenuMobile"><span class="menu-action"><i></i></span></a></div>
+    <div id="MenuMobile">
+        <ul><li class="mm-search"><span class="search_box"><div class="dev-site-search-bar"><label style="display: none" for="sq">關鍵字</label><input placeholder="站台檢索" type="text" value="" id="sq" name="sq" class="dev-site-search-keyword" /><input type="submit" value="搜尋" class="btn dev-site-search-submit" /></div></span></li>
+<li><a href="https://www.ceec.edu.tw/" title="首頁" id="menuHome" menu-code="Home">首頁</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="最新訊息" id="menu0J088534322838202727" menu-code="0J088534322838202727">最新訊息</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363338985390931117" title="新聞稿/公告" id="menu0J088586365308629583" menu-code="0I363338985390931117">新聞稿/公告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352102893869773" title="會議/活動訊息" id="menu0J088586551214083024" menu-code="0I363352102893869773">會議/活動訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352213072616728" title="出版訊息" id="menu0J088586697021346555" menu-code="0I363352213072616728">出版訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352369522959286" title="求才啟事" id="menu0J088587349666890600" menu-code="0I363352369522959286">求才啟事</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="關於中心" id="menu0J088534748389445286" menu-code="0J088534748389445286">關於中心</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0I363352685517160772" title="簡介" id="menu0J088587525473163141" menu-code="0I363352685517160772">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018543724743104681" title="組織架構" id="menu0J088587671923496609" menu-code="0J018543724743104681">組織架構</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553683195911166" title="各單位職掌" id="menu0J088587867830759140" menu-code="0J018553683195911166">各單位職掌</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018553859646154635" title="我們的主任" id="menu0J088590222746123671" menu-code="0J018553859646154635">我們的主任</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400224817662442" title="國際交流" id="menu0J088590483825971626" menu-code="0J088590483825971626">國際交流</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400224817662442" title="兩岸交流" id="menu0J088590779731234167" menu-code="0J050400224817662442">兩岸交流</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400530268804900" title="亞洲英語語言測驗學術論壇(AFELTA)" id="menu0J088591317549162625" menu-code="0J050400530268804900">亞洲英語語言測驗學術論壇(AFELTA)</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050400776718137468" title="各國參訪" id="menu0J088591623455536166" menu-code="0J050400776718137468">各國參訪</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J050401082269379937" title="其他" id="menu0J088591838362899607" menu-code="0J050401082269379937">其他</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" title="公開資訊" id="menu0J088592109540647652" menu-code="0J088592109540647652">公開資訊</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J107562112748691909" title="個人資料保護" id="menu0J188429373829401912" menu-code="0J107562112748691909">個人資料保護</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018557568432243722" title="捐助章程" id="menu0J231524989197355140" menu-code="0J018557568432243722">捐助章程</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018557824882485281" title="董事．監察人名冊" id="menu0J231525114003729671" menu-code="0J018557824882485281">董事．監察人名冊</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558060333728749" title="預算" id="menu0J231525240910082112" menu-code="0J018558060333728749">預算</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558246884050217" title="決算" id="menu0J231525346826445653" menu-code="0J018558246884050217">決算</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018558442234292776" title="會計師查核報告" id="menu0J231528435457001183" menu-code="0J018558442234292776">會計師查核報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0N075500386912682493" title="政策宣導相關廣告執行情形" id="menu0N097625117791478530" menu-code="0N075500386912682493">政策宣導相關廣告執行情形</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018559180686000251" title="我們的位置" id="menu0J088616454142000280" menu-code="0J018559180686000251">我們的位置</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J100517551104826321" title="高中英語聽力測驗" id="menu0J088535149567292230" menu-code="0J088535149567292230">高中英語聽力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352816796918817" title="考試訊息" id="menu0J088616689058463711" menu-code="0I363352816796918817">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/C1" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J088616925965727252" menu-code="0J088616925965727252">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018575771613542490" title="簡介" id="menu0J088617801316069711" menu-code="0J018575771613542490">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576017163884959" title="考試說明" id="menu0J088618403773665710" menu-code="0J018576017163884959">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576253614017417" title="試題示例/參考試卷" id="menu0J088618649689028251" menu-code="0J018576253614017417">試題示例/參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0K213553204833715309" title="高中英文參考詞彙表" id="menu0K213556093305686239" menu-code="0K213553204833715309">高中英文參考詞彙表</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576586515691444" title="選才文摘" id="menu0J088619040302745324" menu-code="0J018576586515691444">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018576409065359986" title="統計資料" id="menu0J088618854495382893" menu-code="0J018576409065359986">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J088619276218019865" menu-code="0J088619276218019865">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J088619712769341323" menu-code="0J088619712769341323">下載專區</a></li>
+<li><a href="https://www.ceec.edu.tw/files/file_pool/1/0M241637016013658199/112%E8%8B%B1%E8%81%BD%E5%B8%B8%E8%A6%8B%E5%95%8F%E9%A1%8C.pdf" title="常見問題 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0K251344144687471839" menu-code="0K251344144687471839">常見問題</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J100517506832331817" title="學科能力測驗" id="menu0J088582947791478530" menu-code="0J088582947791478530">學科能力測驗</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363352927974766861" title="考試訊息" id="menu0J088620658754452819" menu-code="0I363352927974766861">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/A" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J088620919932300864" menu-code="0J088620919932300864">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018585669569761568" title="簡介" id="menu0J088621251655037836" menu-code="0J018585669569761568">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018585845010094026" title="考試說明" id="menu0J088621812478754818" menu-code="0J018585845010094026">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018586101460336585" title="參考試卷" id="menu0K153389656302776377" menu-code="0J018586101460336585">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018610105920483308" title="研究用試題" id="menu0J088622123291481880" menu-code="0J018610105920483308">研究用試題</a></li>
+<li><a href="javascript:void(0);" title="試辦考試" id="menu0M091508442927543303" menu-code="0M091508442927543303">試辦考試</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091480409937740140" title="110試辦考試訊息" id="menu0M091508708834816834" menu-code="0M091480409937740140">110試辦考試訊息</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091481045388073608" title="110試辦試題與解析" id="menu0M091508833640279375" menu-code="0M091481045388073608">110試辦試題與解析</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0M091481446101700680" title="109試辦試題與解析" id="menu0M091509019546533816" menu-code="0M091481446101700680">109試辦試題與解析</a></li>
+</ul></li>
+<li><a href="javascript:void(0);" title="歷年試題及答題卷" id="menu0J088622304379239835" menu-code="0J088622304379239835">歷年試題及答題卷</a><ul><li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424829869345634" title="一般試題" id="menu0J088622525548087880" menu-code="0J052424829869345634">一般試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052392083839398563" title="特殊試題" id="menu0J088622821454340321" menu-code="0J052392083839398563">特殊試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0M111357021798465239" title="特殊答題卷" id="menu0M111602929384914900" menu-code="0M111357021798465239">特殊答題卷</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071624926253508127" title="佳作" id="menu0J088623006361704852" menu-code="0J071624926253508127">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406542978782512" title="選才文摘" id="menu0J188429543008259957" menu-code="0J171406542978782512">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604611989052655" title="工作報告" id="menu0J088623358083421934" menu-code="0J018604611989052655">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018604485538810196" title="統計資料" id="menu0J238325222854587163" menu-code="0J018604485538810196">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J088623503990894475" menu-code="0J088623503990894475">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J088623904178642420" menu-code="0J088623904178642420">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/unithome?psid=0J100517566477210834" title="分科測驗(110前指考)" id="menu0J088583373607741071" menu-code="0J088583373607741071">分科測驗(110前指考)</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0I363353018153514816" title="考試訊息" id="menu0J088625452986470988" menu-code="0I363353018153514816">考試訊息</a></li>
+<li><a href="https://ap.ceec.edu.tw/RegExam/ExamInfo/B" title="試務專區 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J088626379071682463" menu-code="0J088626379071682463">試務專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018609467578676713" title="簡介" id="menu0J088626675888055904" menu-code="0J018609467578676713">簡介</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609653929908281" title="考試說明" id="menu0J088626950794318445" menu-code="0J018609653929908281">考試說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018609919479141840" title="參考試卷" id="menu0K153390602118130818" menu-code="0J018609919479141840">參考試卷</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J018586337911578043" title="研究用試題" id="menu0J088627282517035418" menu-code="0J018586337911578043">研究用試題</a></li>
+<li><a href="javascript:void(0);" title="歷年試題及答題卷" id="menu0J088627507423499959" menu-code="0J088627507423499959">歷年試題及答題卷</a><ul><li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052427633128416650" title="一般試題" id="menu0J088627908502247903" menu-code="0J052427633128416650">一般試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052424613319003165" title="特殊試題" id="menu0J088628064418510444" menu-code="0J052424613319003165">特殊試題</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0M111360260774151742" title="特殊答題卷" id="menu0M111603154290378441" menu-code="0M111360260774151742">特殊答題卷</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J071646661300229964" title="佳作" id="menu0J088628669324974976" menu-code="0J071646661300229964">佳作</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J171406874235388511" title="選才文摘" id="menu0J188429834287007902" menu-code="0J171406874235388511">選才文摘</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611166273765810" title="工作報告" id="menu0J088630901147690058" menu-code="0J018611166273765810">工作報告</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J018611000723433352" title="統計資料" id="menu0J238325348661841604" menu-code="0J018611000723433352">統計資料</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538&amp;qcat=0J074025834918638148" title="成績證明" id="menu0J088631127954064589" menu-code="0J088631127954064589">成績證明</a></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J088631583404296057" menu-code="0J088631583404296057">下載專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="宣導與研習" id="menu0J088583568514105513" menu-code="0J088583568514105513">宣導與研習</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J177009711460336585" title="簡報與短片" id="menu0J193629148736764443" menu-code="0J177009711460336585">簡報與短片</a></li>
+<li><a href="https://www.ceec.edu.tw/xmevent?xsmsid=0J109607120360363338" title="研習訊息" id="menu0J140419004351485161" menu-code="0J109607120360363338">研習訊息</a></li>
+</ul></li>
+<li><a title="生涯輔導" id="menu0J088583714420468044" menu-code="0J088583714420468044">生涯輔導</a><ul><li><a href="https://career.ceec.edu.tw" title="生涯測驗 (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J088632219599408533" menu-code="0J088632219599408533">生涯測驗</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J325537256835299426" title="生涯訊息" id="menu0J338547663067299981" menu-code="0J325537256835299426">生涯訊息</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="出版/訂購" id="menu0J151330646747148935" menu-code="0J151330646747148935">出版/訂購</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="簡章">簡章</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090243509711077474" title="考試簡章">考試簡章</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886" title="試題系列">試題系列</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090327997214634886" title="學科能力測驗系列">學科能力測驗系列</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328138027351868" title="分科測驗(110前指考)系列">分科測驗(110前指考)系列</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328229740188930" title="英語聽力測驗系列">英語聽力測驗系列</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441" title="心理測驗">心理測驗</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329225174268441" title="興趣量表">興趣量表</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090329276353015496" title="大學學系探索量表">大學學系探索量表</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328735465854956" title="其他">其他</a><ul><li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328735465854956" title="考試學刊">考試學刊</a></li>
+<li><a href="https://www.ceec.edu.tw/xcecbook?xsmsid=0J090239151495413846&amp;qcat=0J090328796544602901" title="升學輔導類">升學輔導類</a></li>
+</ul></li>
+<li><a href="/xcecbook/cart?xsmsid=0J090239151495413846" title="購物車">購物車</a></li>
+<li><a href="/xcecbook/order?xsmsid=0J090239151495413846" title="訂單查詢">訂單查詢</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="選才電子報" id="menu0J088584872228307512" menu-code="0J088584872228307512">選才電子報</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper/home?xsmsid=0J066588036013658199" title="當期內容">當期內容</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/peroid?xsmsid=0J066588036013658199" title="各期目錄">各期目錄</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q252591339361786258&amp;xsmsid=0J066588036013658199" title="專題報報">專題報報</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q252591339361786258&amp;xsmsid=0J066588036013658199" title="115學年度分科測驗非選擇題評分原則說明">115學年度分科測驗非選擇題評分原則說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q252590777826332203&amp;xsmsid=0J066588036013658199" title="115年學年分科測驗試題特色">115年學年分科測驗試題特色</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q105367598596417147&amp;xsmsid=0J066588036013658199" title="115學年度學科能力測驗非選擇題評分原則說明">115學年度學科能力測驗非選擇題評分原則說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0Q105367191322447606&amp;xsmsid=0J066588036013658199" title="115年學年度學科能力測驗試題特色">115年學年度學科能力測驗試題特色</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P255340467960339935&amp;xsmsid=0J066588036013658199" title="114年學年分科測驗試題特色">114年學年分科測驗試題特色</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P255340835778177493&amp;xsmsid=0J066588036013658199" title="114學年度分科測驗非選擇題評分原則說明">114學年度分科測驗非選擇題評分原則說明</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P167512820434794446&amp;xsmsid=0J066588036013658199" title="學科學習小叮嚀">學科學習小叮嚀</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P118433526920370959&amp;xsmsid=0J066588036013658199" title="114年學年度學科能力測驗試題特色">114年學年度學科能力測驗試題特色</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P118433308122532391&amp;xsmsid=0J066588036013658199" title="114學年度學科能力測驗非選擇題評分原則說明">114學年度學科能力測驗非選擇題評分原則說明</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616104134302815&amp;xsmsid=0J066588036013658199" title="試訊快遞">試訊快遞</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616104134302815&amp;xsmsid=0J066588036013658199" title="學測">學測</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616160129523300&amp;xsmsid=0J066588036013658199" title="指考">指考</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616271308361355&amp;xsmsid=0J066588036013658199" title="英聽">英聽</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616332586119300&amp;xsmsid=0J066588036013658199" title="術科">術科</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0K070528366812061774&amp;xsmsid=0J066588036013658199" title="試辦考試">試辦考試</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0M105476092230875839&amp;xsmsid=0J066588036013658199" title="分科測驗">分科測驗</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066633081664881609&amp;xsmsid=0J066588036013658199" title="學習錦囊">學習錦囊</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066633081664881609&amp;xsmsid=0J066588036013658199" title="高中生專區">高中生專區</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632128429024070&amp;xsmsid=0J066588036013658199" title="教育服務">教育服務</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632128429024070&amp;xsmsid=0J066588036013658199" title="選才育才">選才育才</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632239507872025&amp;xsmsid=0J066588036013658199" title="教育推廣">教育推廣</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632300776620070&amp;xsmsid=0J066588036013658199" title="線上課程">線上課程</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632371954478024&amp;xsmsid=0J066588036013658199" title="哈燒出版品">哈燒出版品</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066632442133216079&amp;xsmsid=0J066588036013658199" title="高一學習小叮嚀">高一學習小叮嚀</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J115568708313129816&amp;xsmsid=0J066588036013658199" title="大學圖書館尋理">大學圖書館尋理</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P265347771540577261&amp;xsmsid=0J066588036013658199" title="考試鮮試多">考試鮮試多</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P265367265048005583&amp;xsmsid=0J066588036013658199" title="試題影音">試題影音</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0P265367265048005583&amp;xsmsid=0J066588036013658199" title="試題停看聽">試題停看聽</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614317330887844&amp;xsmsid=0J066588036013658199" title="科普專區">科普專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066614378153514816&amp;xsmsid=0J066588036013658199" title="數字真相">數字真相</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616640928936985&amp;xsmsid=0J066588036013658199" title="招生選才">招生選才</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616640928936985&amp;xsmsid=0J066588036013658199" title="理念與制度">理念與制度</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616731107774930&amp;xsmsid=0J066588036013658199" title="制度實施">制度實施</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J066616822285522985&amp;xsmsid=0J066588036013658199" title="考招">考招</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110619899420480958&amp;xsmsid=0J066588036013658199" title="研究論述專欄">研究論述專欄</a><ul><li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110619899420480958&amp;xsmsid=0J066588036013658199" title="徵稿啟示">徵稿啟示</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J110622721422955985&amp;xsmsid=0J066588036013658199" title="本期論文">本期論文</a></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper/cont?qunit=0J110622922066834903&amp;xsmsid=0J066588036013658199" title="歷年學刊">歷年學刊</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xcepaper?qunit=0J093450035061333235&amp;xsmsid=0J066588036013658199" title="中心剪影">中心剪影</a></li>
+</ul></li>
+<li><a href="https://www.ceec.edu.tw/xmfile?xsmsid=0J052605494129871538" title="下載專區" id="menu0J088585413407154556" menu-code="0J052605494129871538">下載專區</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J236448857801791531" title="術科行政" id="menu0J236452780687113601" menu-code="0J236448857801791531">術科行政</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J087752015580462225" title="相關網站" id="menu0J236452895593476142" menu-code="0J087752015580462225">相關網站</a></li>
+<li><a href="https://www.ceec.edu.tw/en/xmdoc/cont?xsmsid=0J164378162651032149" title="ENGLISH (另開視窗顯示)" target="_blank" rel="noopener noreferrer" id="menu0J236453021400830673" menu-code="0J236453021400830673">ENGLISH</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc/cont?xsmsid=0J290351513057919748" title="LINE官方帳號" id="menu0J294614638205720622" menu-code="0J290351513057919748">LINE官方帳號</a></li>
+<li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J339501276623943587" title="考生體驗網" id="menu0K142609972246141385" menu-code="0K142609972246141385">考生體驗網</a><ul><li><a href="https://www.ceec.edu.tw/xmdoc?xsmsid=0J339501276623943587" title="影音專區" id="menu0K142610168153514816" menu-code="0J339501276623943587">影音專區</a></li>
+</ul></li>
+</ul>
+    </div>
+</div>
+<!-- 行動裝置版選單 end -->
+
+
+    </div>
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+
+    <script type="text/javascript">
+            //$(function () {
+            //    $(".dev-site-search-submit", $("form[id='PCSiteSearchForm']")).click(function () {
+            //        if ($(".dev-site-search-keyword", $("form[id='PCSiteSearchForm']")).val() === "") {
+            //            alert("請輸入關鍵字");
+            //            return false;
+            //        } else {
+            //            return true;
+            //        }
+            //    });
+
+            //    $(".dev-site-search-submit", $("form[id='MobiSiteSearchForm']")).click(function () {
+            //        if ($(".dev-site-search-keyword", $("form[id='MobiSiteSearchForm']")).val() === "") {
+            //            alert("請輸入關鍵字");
+            //            return false;
+            //        } else {
+            //            return true;
+            //        }
+            //    });
+            //});
+    </script>
+
+</body>
+
+</html>

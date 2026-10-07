@@ -1,0 +1,102 @@
+{
+  "https://cap.rcpet.edu.tw/": {
+    "file": "cap.rcpet.edu.tw_index.html",
+    "content_type": "text/html"
+  },
+  "https://cap.rcpet.edu.tw/documents/116學年度國中教育會考及全國高級中等學校與專科學校五年制適性入學重要日程表.pdf": {
+    "file": "cap.rcpet.edu.tw_documents_116_7221065f.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://cap.rcpet.edu.tw/history.html": {
+    "file": "cap.rcpet.edu.tw_history.html",
+    "content_type": "text/html"
+  },
+  "https://www.cac.edu.tw/apply115/schedule.php": {
+    "file": "www.cac.edu.tw_apply115_schedule.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.cac.edu.tw/apply116/schedule.php": {
+    "file": "www.cac.edu.tw_apply116_schedule.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.cac.edu.tw/cacportal/index.php": {
+    "file": "www.cac.edu.tw_cacportal_index.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.cac.edu.tw/star115/schedule.php": {
+    "file": "www.cac.edu.tw_star115_schedule.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.cac.edu.tw/star116/schedule.php": {
+    "file": "www.cac.edu.tw_star116_schedule.php",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.ceec.edu.tw/": {
+    "file": "www.ceec.edu.tw_index.html",
+    "content_type": "text/html; charset=utf-8"
+  },
+  "https://www.ceec.edu.tw/files/file_pool/1/0q215601929252011195/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e7%b0%a1%e7%ab%a0.pdf": {
+    "file": "www.ceec.edu.tw_files_file_pool_1_0q215601929252011195_116_cc9c83a9.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://www.ceec.edu.tw/files/file_pool/1/0q215602074068375626/116%e5%ad%b8%e5%b9%b4%e5%ba%a6%e8%80%83%e8%a9%a6%e9%87%8d%e8%a6%81%e8%a9%a6%e5%8b%99%e6%97%a5%e6%9c%9f.pdf": {
+    "file": "www.ceec.edu.tw_files_file_pool_1_0q215602074068375626_116_104d65f7.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://www.jctv.ntut.edu.tw/downloads/115/apply/115_apply_date1.pdf": {
+    "file": "www.jctv.ntut.edu.tw_downloads_115_apply_115_apply_date1.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://www.jctv.ntut.edu.tw/downloads/115/skill/115_skill_date2.pdf": {
+    "file": "www.jctv.ntut.edu.tw_downloads_115_skill_115_skill_date2.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://www.jctv.ntut.edu.tw/downloads/115/union42/115_union42_date1.pdf": {
+    "file": "www.jctv.ntut.edu.tw_downloads_115_union42_115_union42_date1.pdf",
+    "content_type": "application/pdf"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/apply/": {
+    "file": "www.jctv.ntut.edu.tw_enter42_apply.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/apply/contents.php?academicYear=115&subId=181": {
+    "file": "www.jctv.ntut.edu.tw_enter42_apply_contents.php_academicYear_115_subId_181.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/apply/contents.php?academicYear=116&subId=181": {
+    "file": "www.jctv.ntut.edu.tw_enter42_apply_contents.php_academicYear_116_subId_181.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/skill/": {
+    "file": "www.jctv.ntut.edu.tw_enter42_skill.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/skill/contents.php?academicYear=115&subId=159": {
+    "file": "www.jctv.ntut.edu.tw_enter42_skill_contents.php_academicYear_115_subId_159.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/enter42/skill/contents.php?academicYear=116&subId=159": {
+    "file": "www.jctv.ntut.edu.tw_enter42_skill_contents.php_academicYear_116_subId_159.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/union42/": {
+    "file": "www.jctv.ntut.edu.tw_union42.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/union42/contents.php?academicYear=115&subId=89": {
+    "file": "www.jctv.ntut.edu.tw_union42_contents.php_academicYear_115_subId_89.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.jctv.ntut.edu.tw/union42/contents.php?academicYear=116&subId=89": {
+    "file": "www.jctv.ntut.edu.tw_union42_contents.php_academicYear_116_subId_89.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.tcte.edu.tw/index.php?mod=TVETest/info4y": {
+    "file": "www.tcte.edu.tw_index.php_mod_TVETest_info4y.html",
+    "content_type": "text/html; charset=UTF-8"
+  },
+  "https://www.uac.edu.tw/flow.htm": {
+    "file": "www.uac.edu.tw_flow.htm",
+    "content_type": "text/html"
+  }
+}
